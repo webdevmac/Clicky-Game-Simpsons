@@ -1,0 +1,84 @@
+h5,
+h6 {
+  background-color: yellowgreen;
+  display: inline;
+  cursor: default;
+  
+  
+}
+
+h5 {
+  font-size: 3.0em;
+  padding: 10px;
+
+  margin-bottom: 25px;
+}
+h6 {
+    font-size: 1.1em;
+    padding: 5px;
+    margin-right: 100px;
+    margin-top: 30px;
+
+  }
+
+h5:hover {
+  color: #fff;
+  background-color: #000;
+  display: inline;
+  
+}
+
+h6:hover {
+  color: #fff;
+  background-color: red;
+  display: inline;
+}
+
+.scoreB {
+  margin-bottom: 25px;
+}
+
+.col-left {
+  font-family: "Major Mono Display", monospace;
+  text-align: center;
+  
+
+}
+
+.col-right {
+  font-family: "Noto Serif SC", serif;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+#note {
+    font-size: 25px;
+    text-align: center;
+}
+.alert-danger {
+  font-family: "Noto Serif SC", serif;
+  text-transform: uppercase;
+  color: #fff;
+  /* display: inline; */
+  background-color: red !important;
+  border-radius: 0 !important;
+  border-color: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: default;
+  /* margin: auto; */
+}
+
+.alert-success:hover {
+  color: #fff;
+  background-color: #000 !important;
+}
+
+#root {
+  background-color: #dddddd;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  /* margin-bottom: -100px; */
+}
